@@ -9,8 +9,16 @@ Shelly is a small library that lets you abstract your shell commands using PHP.
 
 You need [Composer] to install the lib:
 
-```php
-comming soon
+```json
+"require": {
+        ...
+        "abogdan/shelly": "dev-master",
+        ...
+    },
+```
+
+```sh
+composer require abogdan/shelly:dev-master
 ```
 
 ### Examples

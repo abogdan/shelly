@@ -1,9 +1,16 @@
 {
     "name": "abogdan/shelly",
-    "description": "Shelly",
+    "license": "MIT",
+    "description": "Shelly is a small library that lets you abstract your shell commands using PHP.",
     "type": "library",
     "keywords": ["shell", "process", "pipe"],
-    "version": "v0.1.0",
+    "homepage": "https://github.com/abogdan/shelly",
+    "authors": [
+        {
+            "name": "Bogdan Andritoiu",
+            "email": "bogdan@andritoiu.ro"
+        }
+    ],
     "require": {
         "php": ">=5.4.0",
         "phpcollection/phpcollection": "~0.4",
@@ -11,5 +18,10 @@
     },
     "autoload": {
         "psr-4": { "ABogdan\\Shelly\\": "src" }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1.0-dev"
+        }
     }
 }
